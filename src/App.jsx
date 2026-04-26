@@ -7,7 +7,7 @@ export default function TradeStreamPro() {
   const [status, setStatus] = useState("Ready");
   const [jobName, setJobName] = useState("");
 
-  const BACKEND_URL = "REPLACE_WITH_RENDER_BACKEND_URL/read-image";
+  const BACKEND_URL = "https://tradestreampro-backend.onrender.com/read-image";
 
   const partMap = {
     "6 pipe": ["8H642", '6" GALV PIPE'],
